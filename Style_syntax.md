@@ -1,3 +1,5 @@
+import { StyleSheet, Text, View, ImageBackground ,FlatList } from 'react-native';
+
 function CategoriesScreen() {
     return(
       
@@ -7,7 +9,7 @@ export default CategoriesScreen;
 
 cd C:\Users\raman\Desktop\nodeproject\kalreact\guessornot
 
-import { StyleSheet, Text, View, ImageBackground ,FlatList } from 'react-native';
+
 
 const styles = StyleSheet.create({
    });
