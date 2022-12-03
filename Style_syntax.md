@@ -1,5 +1,7 @@
 function CategoriesScreen() {
-    return
+    return(
+      
+    )
 }
 export default CategoriesScreen;
 
@@ -9,11 +11,13 @@ import { StyleSheet, Text, View, ImageBackground ,FlatList } from 'react-native'
 
 const styles = StyleSheet.create({
    });
+   
 rootScreen: {flex: 1, backgroundColor: '#f3f70c', alignItems: 'center', justifyContent: 'center',},
 
 rootScreen: {flex: 1, backgroundColor: '#f3f70c', alignItems: 'center', justifyContent: 'center',},
 
  style={styles.buttonContainer}
+ style= {{color:'red'}}
 import {Ionicons} from '@expo/vector-icons';  expo-font; expo install expo-app-loading
 function PrimaryButton({children}) {
   return (
@@ -22,6 +26,10 @@ function PrimaryButton({children}) {
     </View>
   )
 }
+Image source={{uri:selectedMeal.imageUrl}} 
+ 
+ Image style={styles.image} source={require('../assets/images/gocaith.png')} 
+<Button title ='In the header' onPress={headerButtonPressHandler} />
 <PrimaryButton>Reset</PrimaryButton>
 
         <PrimaryButton>Confirm</PrimaryButton>
